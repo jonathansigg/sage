@@ -1,0 +1,17 @@
+$enable-flex: false;
+@import "common/variables";
+@import "~bootstrap/scss/variables";
+
+// Bootstrap Grid
+@import "~bootstrap/scss/mixins/clearfix";
+@import "#~bootstrap/scss/mixins/breakpoints";
+@import "~bootstrap/scss/mixins/grid-framework";
+@import "~bootstrap/scss/mixins/grid";
+@import "~bootstrap/scss/grid";
+
+// multiple gird
+@import "mixin/multigrid";
+@import "components/multigrid";
+
+// flex fix
+[class*="col-"] { -ms-flex: 0 0 auto; flex: 0 0 auto; }

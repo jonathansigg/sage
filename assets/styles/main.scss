@@ -2,6 +2,10 @@
 
 // Import npm dependencies
 @import "~bootstrap/scss/bootstrap";
+@import "~bourbon/app/assets/stylesheets/bourbon";
+
+@import "mixin/multigrid";
+@import "components/multigrid";
 
 @import "common/global";
 @import "components/buttons";
